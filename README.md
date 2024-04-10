@@ -5,32 +5,61 @@ comptabilite facile pour tous
 
 ## 1. Introduction
 
-TechStore est une entreprise spécialisée dans l'achat et la commercialisation d'ordinateurs. Elle dispose d'un magasin physique et d'une boutique en ligne, ainsi qu'un service de livraison.
+TechStore est une entreprise qui se spécialise dans l'achat et la commercialisation d'ordinateurs, opérant à la fois via un magasin physique et une boutique en ligne, avec un service de livraison associé. L'entreprise s'efforce de maintenir une comptabilité précise et à jour, ce qui est crucial pour sa stratégie commerciale et financière.
 
 ## 2. Processus comptable
 
-Le processus comptable de TechStore suit plusieurs étapes clés et produit divers livrables avant d'arriver au bilan, au compte de résultat et à la comptabilité analytique :
+Le processus comptable est le pilier de la gestion financière de TechStore, permettant de suivre précisément toutes les opérations financières, de préparer les états financiers et d'assurer la conformité avec les normes comptables.
 
 ### 2.1 Collecte des documents
 
-Toutes les transactions financières sont documentées via des factures, des reçus, et des relevés bancaires.
+Chaque transaction financière génère un document justificatif : factures d'achat, factures de vente, reçus de paiement, et relevés bancaires. Ces documents sont essentiels pour la traçabilité et la vérification des opérations.
+
+| Type de document      | Nombre | Exemple de montant (€) |
+|-----------------------|--------|------------------------|
+| Factures fournisseurs | 10     | 15 000                 |
+| Factures clients      | 15     | 25 000                 |
+| Reçus de paiement     | 25     | 20 000                 |
+| Relevés bancaires     | 2      | 45 000                 |
 
 ### 2.2 Saisie des écritures
 
-Les documents sont utilisés pour saisir les écritures comptables dans le journal. Cette étape inclut la classification de chaque opération selon un plan comptable adapté.
+Les informations contenues dans les documents justificatifs sont utilisées pour enregistrer les écritures comptables. Chaque écriture comprend une date, une description, et les montants au débit et au crédit correspondants, reflétant le principe de la partie double.
 
+| Date       | Description              | Débit (€) | Crédit (€) |
+|------------|--------------------------|-----------|------------|
+| 2024-01-05 | Achat d'ordinateurs      | 15 000    |            |
+| 2024-01-10 | Vente d'ordinateurs      |           | 25 000     |
+| 2024-01-15 | Paiement fournisseur     |           | 15 000     |
+| 2024-01-20 | Encaissement client      | 20 000    |            |
 
 ### 2.3 Rapprochement bancaire
 
-Le rapprochement bancaire est effectué pour s'assurer que les écritures comptables correspondent aux mouvements sur les comptes bancaires de l'entreprise.
+Le rapprochement bancaire vérifie la concordance entre les écritures comptables et les mouvements sur les comptes bancaires de l'entreprise. Cette étape est cruciale pour identifier les erreurs ou les transactions non enregistrées.
+
+| Mouvement bancaire | Montant (€) | Correspondance comptable | Montant comptabilisé (€) |
+|--------------------|-------------|--------------------------|--------------------------|
+| Encaissement       | 20 000      | Encaissement client      | 20 000                   |
+| Paiement           | -15 000     | Paiement fournisseur     | -15 000                  |
 
 ### 2.4 Lettrage des comptes
 
-Les opérations de paiement et de réception sont appariées aux factures correspondantes dans les comptes de tiers (clients et fournisseurs), ce qui permet de vérifier que toutes les factures ont été payées ou encaissées.
+Le lettrage consiste à associer les paiements et les encaissements aux factures correspondantes, permettant de vérifier l'exactitude des soldes clients et fournisseurs.
+
+| Compte         | Montant facturé (€) | Paiements (€) | Solde (€) |
+|----------------|---------------------|---------------|-----------|
+| Fournisseur A  | 15 000              | 15 000        | 0         |
+| Client B       | 25 000              | 20 000        | 5 000     |
 
 ### 2.5 Clôture des comptes de gestion
 
-Les comptes de charges et de produits sont soldés pour préparer le compte de résultat, qui montre le profit ou la perte de l'entreprise.
+À la fin de la période comptable, les comptes de gestion (charges et produits) sont soldés pour déterminer le résultat de l'exercice. Ce résultat est ensuite reporté dans les capitaux propres du bilan.
+
+| Compte de gestion     | Total période (€) |
+|-----------------------|-------------------|
+| Ventes                | 25 000            |
+| Achats                | 
+
 
 ### 2.6 Préparation des états financiers
 
