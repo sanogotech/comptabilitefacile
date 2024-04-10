@@ -19,6 +19,7 @@ Toutes les transactions financières sont documentées via des factures, des re�
 
 Les documents sont utilisés pour saisir les écritures comptables dans le journal. Cette étape inclut la classification de chaque opération selon un plan comptable adapté.
 
+
 ### 2.3 Rapprochement bancaire
 
 Le rapprochement bancaire est effectué pour s'assurer que les écritures comptables correspondent aux mouvements sur les comptes bancaires de l'entreprise.
