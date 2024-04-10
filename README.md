@@ -1,5 +1,6 @@
-# comptabilitefacile
-comptabilite facile pour tous
+#  Comptabilite  facile
+
+Comptabilite facile pour tous.
 
 # Comptabilité de la PME TechStore
 
