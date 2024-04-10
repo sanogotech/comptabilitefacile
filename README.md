@@ -211,6 +211,12 @@ L'ajout d'une plateforme de gestion des API/ESB et d'un système IAM SSO renforc
 
 12. **Sécurité et Conformité <--> Tous les systèmes**
     - Protection des données sensibles et assurance de la conformité avec les réglementations en vigueur.
+   
+13. **API Management/ESB <--> Tous les systèmes**
+    - Intégration et gestion des services entre systèmes pour une agilité et une évolutivité accrues.
+
+14. **IAM SSO <--> Tous les systèmes**
+    - Gestion centralisée des identités et accès pour une sécurité renforcée et un accès simplifié.
 
 ## Exemple concret de lien entre les systèmes
 
@@ -239,8 +245,11 @@ Considérons un achat effectué par Alex, qui achète un ordinateur portable sur
 | Ressources Humaines <--> Tous les systèmes    | Gestion optimale du personnel                          | Synchronisation des besoins en personnel avec les compétences et les formations nécessaires dans chaque département. |
 | Analyse de Données et BI <--> Tous les systèmes| Décisions stratégiques éclairées                      | Analyse approfondie des données pour obtenir des insights opérationnels, financiers et marketing.       |
 | Sécurité et Conformité <--> Tous les systèmes | Protection des données et conformité réglementaire     | Mise en œuvre de mesures de sécurité pour protéger les informations et assurer la conformité aux lois et normes. |
+| API Management/ESB <--> Tous les systèmes     | Agilité et évolutivité des intégrations                | Facilitation de l'intégration et de la gestion des services entre systèmes pour une meilleure communication et évolutivité. |
+| IAM SSO <--> Tous les systèmes                | Sécurité renforcée et accès simplifié                  | Gestion centralisée des identités et des accès pour assurer une sécurité accrue et simplifier l'expérience utilisateur. |
 
-L'intégration de ces différents systèmes et processus contribue significativement à la croissance et à la compétitivité de l'entreprise sur le marché.
+L'intégration de ces différents systèmes et processus, en tenant compte de la gestion des API et du SSO IAM, contribue significativement à la croissance et à la compétitivité de l'entreprise sur le marché.
+
 
 
 ## 4. Procédures de contrôle interne
