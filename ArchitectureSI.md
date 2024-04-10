@@ -105,3 +105,4 @@ Medicament {
   indication: String
   contreIndications: String[]
 }
+```
