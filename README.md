@@ -199,6 +199,45 @@ Créer un plan de trésorerie prévisionnel sur 12 mois pour anticiper les besoi
 
 ![Graphique de trésorerie](https://example.com/cash_flow_chart.png)
 
+
+# Plan de Trésorerie Prévisionnel pour TechStore sur 12 Mois
+
+## Objectifs
+- Anticiper les besoins de liquidités.
+- Assurer le financement des activités opérationnelles.
+- Planifier les investissements et les financements.
+
+## Hypothèses
+- Ventes mensuelles moyennes : 50 000€, avec une augmentation de 5% par trimestre.
+- Coût des marchandises vendues (CMV) : 60% du chiffre d'affaires.
+- Frais fixes mensuels (loyer, salaires, etc.) : 20 000€.
+- Paiement des taxes trimestrielles : 5 000€ au 3ème mois de chaque trimestre.
+- Investissement en équipement en mois 6 : 15 000€.
+- Prêt à court terme en mois 6 : 20 000€.
+
+## Plan de Trésorerie
+
+| Mois        | 1     | 2     | 3     | 4     | 5     | 6     | 7     | 8     | 9     | 10    | 11    | 12    |
+|-------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+| **Recettes**|       |       |       |       |       |       |       |       |       |       |       |       |
+| Ventes      | 50 000| 50 000| 52 500| 52 500| 52 500| 55 125| 55 125| 55 125| 57 881| 57 881| 57 881| 60 775|
+| Prêt        | 0     | 0     | 0     | 0     | 0     | 20 000| 0     | 0     | 0     | 0     | 0     | 0     |
+| **Dépenses**|       |       |       |       |       |       |       |       |       |       |       |       |
+| Achat (CMV) | 30 000| 30 000| 31 500| 31 500| 31 500| 33 075| 33 075| 33 075| 34 729| 34 729| 34 729| 36 465|
+| Frais fixes | 20 000| 20 000| 25 000| 20 000| 20 000| 35 000| 20 000| 20 000| 25 000| 20 000| 20 000| 25 000|
+| **Solde**   |       |       |       |       |       |       |       |       |       |       |       |       |
+| Mensuel     | 0     | 0     | -4 000| 1 000 | 1 000 | -33 950| 2 050 | 2 050 | -1 848| 3 152 | 3 152 | -625  |
+| Cumulé      | 0     | 0     | -4 000| -3 000| -2 000| -35 950| -33 900| -31 850| -33 698| -30 546| -27 394| -28 019|
+
+## Analyse
+- **Solde cumulé négatif** : Le solde cumulé devient négatif dès le 3ème mois, avec un creux important au 6ème mois dû à l'investissement en équipement. Le prêt à court terme aide à compenser ce besoin.
+- **Recouvrement progressif** : Les recettes générées par les ventes permettent un recouvrement progressif à partir du 7ème mois, mais le solde reste négatif à la fin de l'année.
+- **Besoins de financement supplémentaires** : Pour maintenir l'opérabilité et financer la croissance, TechStore pourrait nécessiter des sources de financement supplémentaires ou revoir sa stratégie d'investissement.
+
+## Conclusion
+Ce plan de trésorerie prévisionnel souligne l'importance d'une planification financière minutieuse pour TechStore. La gestion de la trésorerie doit être flexible pour s'adapter aux fluctuations des recettes et des dépenses, tout en cherchant activement des opportunités de financement pour soutenir la croissance de l
+
+
 ## 6. Planification fiscale
 
 Établir un calendrier des échéances fiscales pour ne jamais manquer un paiement ou une déclaration. Voici un exemple pour le premier trimestre :
