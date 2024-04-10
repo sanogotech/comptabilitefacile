@@ -1,6 +1,7 @@
-#  Comptabilite  facile
+# Comptabilité Facile pour Tous
 
-Comptabilite facile pour tous.
+La comptabilité n'est pas seulement l'affaire des comptables. Que vous soyez entrepreneur, gérant d'une PME, investisseur, ou simplement curieux d'en savoir plus sur les rouages financiers qui soutiennent les entreprises du monde entier, comprendre les principes de base de la comptabilité est essentiel. Cette science, parfois perçue comme ardue, est en réalité accessible à tous, pourvu qu'on en maîtrise les concepts clés.
+
 
 # Comptabilité de la PME TechStore
 
