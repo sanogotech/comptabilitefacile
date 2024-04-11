@@ -50,6 +50,10 @@ classDiagram
     Consultation "1" -- "1" Medecin : consulté par
     Prescription "1" -- "1" Medecin : prescrit par
     Prescription "1" -- "1" Medicament : concerne
+    Dossier "1" -- "0..*" Facture : génère
+    Facture "1" -- "1..*" Paiement : est réglée par
+    Dossier "1" -- "0..*" Hospitalisation : inclut
+    Hospitalisation "1" -- "1" Chambre : utilise
 
     class Patient{
       +int id
@@ -69,6 +73,8 @@ classDiagram
       +Consultation[] historiqueConsultations
       +Analyse[] historiqueAnalyses
       +Prescription[] historiquePrescriptions
+      +Facture[] factures
+      +Hospitalisation[] hospitalisations
     }
 
     class Consultation{
@@ -113,4 +119,38 @@ classDiagram
       +String indication
       +String[] contreIndications
     }
+
+    class Facture{
+      +int id
+      +Dossier dossier
+      +Date dateEmission
+      +float montantTotal
+      +String statut
+      +Paiement[] paiements
+    }
+
+    class Paiement{
+      +int id
+      +Facture facture
+      +Date datePaiement
+      +float montant
+      +String modePaiement
+    }
+
+    class Hospitalisation{
+      +int id
+      +Dossier dossier
+      +Date dateDebut
+      +Date dateFin
+      +Chambre chambre
+      +String motif
+    }
+
+    class Chambre{
+      +int id
+      +String numero
+      +String type
+      +float tarifParNuit
+    }
+
 ```
