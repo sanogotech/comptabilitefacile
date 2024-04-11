@@ -43,66 +43,74 @@ Ce DFD fournit une vue d'ensemble simplifiée des flux de données dans un SIH. 
 
 ```mermaid
 classDiagram
-Patient {
-  id: int
-  nom: String
-  prenom: String
-  dateNaissance: Date
-  adresse: String
-  numeroSecuriteSociale: String
-  dossiersMedicaux: Dossier[]
-}
+    Patient "1" -- "0..*" Dossier : a
+    Dossier "1" -- "0..*" Consultation : contient
+    Dossier "1" -- "0..*" Analyse : contient
+    Dossier "1" -- "0..*" Prescription : contient
+    Consultation "1" -- "1" Medecin : consulté par
+    Prescription "1" -- "1" Medecin : prescrit par
+    Prescription "1" -- "1" Medicament : concerne
 
-Dossier {
-  id: int
-  patient: Patient
-  dateOuverture: Date
-  dateFermeture: Date
-  historiqueConsultations: Consultation[]
-  historiqueAnalyses: Analyse[]
-  historiquePrescriptions: Prescription[]
-}
+    class Patient{
+      +int id
+      +String nom
+      +String prenom
+      +Date dateNaissance
+      +String adresse
+      +String numeroSecuriteSociale
+      +Dossier[] dossiersMedicaux
+    }
 
-Consultation {
-  id: int
-  dossier: Dossier
-  dateConsultation: Date
-  medecin: Medecin
-  diagnostic: String
-  traitement: String
-}
+    class Dossier{
+      +int id
+      +Patient patient
+      +Date dateOuverture
+      +Date dateFermeture
+      +Consultation[] historiqueConsultations
+      +Analyse[] historiqueAnalyses
+      +Prescription[] historiquePrescriptions
+    }
 
-Medecin {
-  id: int
-  nom: String
-  prenom: String
-  specialite: String
-  consultations: Consultation[]
-}
+    class Consultation{
+      +int id
+      +Dossier dossier
+      +Date dateConsultation
+      +Medecin medecin
+      +String diagnostic
+      +String traitement
+    }
 
-Analyse {
-  id: int
-  dossier: Dossier
-  dateAnalyse: Date
-  typeAnalyse: String
-  resultat: String
-}
+    class Medecin{
+      +int id
+      +String nom
+      +String prenom
+      +String specialite
+      +Consultation[] consultations
+    }
 
-Prescription {
-  id: int
-  dossier: Dossier
-  datePrescription: Date
-  medecin: Medecin
-  medicament: Medicament
-  quantite: int
-  posologie: String
-}
+    class Analyse{
+      +int id
+      +Dossier dossier
+      +Date dateAnalyse
+      +String typeAnalyse
+      +String resultat
+    }
 
-Medicament {
-  id: int
-  nom: String
-  principesActifs: String[]
-  indication: String
-  contreIndications: String[]
-}
+    class Prescription{
+      +int id
+      +Dossier dossier
+      +Date datePrescription
+      +Medecin medecin
+      +Medicament medicament
+      +int quantite
+      +String posologie
+    }
+
+    class Medicament{
+      +int id
+      +String nom
+      +String[] principesActifs
+      +String indication
+      +String[] contreIndications
+    }
 ```
